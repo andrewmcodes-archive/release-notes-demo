@@ -13,7 +13,7 @@ Release::Notes.configure do |config|
   config.bug_title = '**Fixed bugs:**'
   config.feature_title = '**Implemented enhancements:**'
   config.misc_title = '**Miscellaneous:**'
-  config.link_to_labels = %w["RND #", "AB #", "BC #"]
+  config.link_to_labels = ['RND #', 'AB #', 'BC #']
   config.link_to_humanize = %w[ReleaseNotesDemo LabelAB LabelBC]
   config.link_to_sites = %w[https:\/\/release-notes-demo\/projects https:\/\/label-ab\/projects https:\/\/label-bc\/projects]
   config.timezone = 'America/New_York'
